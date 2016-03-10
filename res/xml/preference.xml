@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/set_authorization_category">
+        <EditTextPreference android:summary="@string/set_auth_pin_code" android:title="PIN Code" android:key="auth_pin_code" android:dependency="auth_enable"/>
+        <CheckBoxPreference android:summary="@string/set_auth_enable_sum" android:title="@string/set_auth_enable" android:key="auth_enable"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_online_group">
+        <EditTextPreference android:key="online_username" android:title="@string/set_online_username" android:dependency="online_enable"/>
+        <EditTextPreference android:key="online_password" android:title="@string/set_online_password" android:dependency="online_enable"/>
+        <CheckBoxPreference android:key="online_enable" android:title="@string/set_online_enable"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

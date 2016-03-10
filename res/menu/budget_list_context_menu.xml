@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mn_bud_list_edit" android:title="@string/menu_edit"></item>
+    <item android:id="@+id/mn_bud_list_delete" android:title="@string/menu_delete"></item>
+    <item android:id="@+id/mn_bud_list_transfer" android:title="@string/menu_transfer"></item>
+    <item android:id="@+id/mn_bud_list_merge" android:title="@string/menu_merge_account"></item>
+</menu>

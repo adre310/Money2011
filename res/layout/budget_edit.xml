@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/bud_edit_main" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+       	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/budget_name"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/bud_edit_name"></EditText>
+    	<TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/currency"></TextView>
+    	<Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/bud_edit_currency"></Spinner>
+    	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notes"></TextView>
+    	<EditText android:layout_width="match_parent" android:inputType="textMultiLine" android:layout_height="wrap_content" android:id="@+id/bud_edit_notes"/>
+    	<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:id="@+id/bud_edit_save" android:text="@string/save"></Button>
+    </RelativeLayout>
+	</LinearLayout>
+</ScrollView>

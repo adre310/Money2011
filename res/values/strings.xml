@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Home Budget</string>
+	<string name="pay_value">Payment</string>
+	<string name="pay_date">Payment date</string>
+	<string name="category">Category</string>
+	<string name="save">Save</string>
+	<string name="pay_list">Transactions list</string>
+	<string name="budget_list">Account list</string>
+	<string name="budget_name">Account name</string>
+	<string name="currency">Currency</string>
+	<string name="budget_initial_balance">Initial balance</string>
+	<string name="budget_create_date">Create date</string>
+	<string name="task_load">Loading...</string>
+	<string name="task_save">Saving...</string>
+	<string name="budhet_name_is_not_empty">The account name can\'t be empty</string>
+	<string name="task_delete">Deleting...</string>
+	<string name="category_title_edit">Edit</string>
+	<string name="category_title_add">Insert</string>
+	<string name="category_name_is_not_empty">The category name can\'t be empty</string>
+	<string name="menu_edit">Edit</string>
+	<string name="menu_add">Add</string>
+	<string name="menu_categories">Categories</string>
+	<string name="menu_backup">Backup</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_budget_edit">Account edit</string>
+	<string name="menu_category_set_default">Set as default</string>
+	<string name="menu_reports">Charts</string>
+	<string name="deposit">Deposit</string>
+	<string name="withdrawal">Withdrawal</string>
+	<string name="BudgetView_title">Account View</string>
+	<string name="PayEdit_title">Transaction edit</string>
+	<string name="BudgetCreate_title">Create account</string>
+	<string name="BudgetEdit_title">Edit account</string>
+	<string name="CategoryList_title">Categories list</string>
+	<string name="report_all_category">Expenses for categories</string>
+	<string name="report_monthly">Expenses for months</string>
+	<string name="select_charts">Select Chart</string>
+	<string name="task_canceled">Task has been canceled.</string>
+	<string name="category_name_not_unique">The category already exists.</string>
+	<string name="budget_name_not_unique">The account name isn\'t unique</string>
+	<string name="unknown_error">Sorry. INTERNAL ERROR \'%s\'. Please send me
+		adre310@gmail.com - how to reproduce this error!
+	</string>
+	<string name="account">Account</string>
+	<string name="after">After</string>
+	<string name="before">Before</string>
+	<string name="export">Export</string>
+	<string name="Export_title">Export items</string>
+	<string name="all_accounts">- All Accounts -</string>
+	<string name="all_categories">- All Categories -</string>
+	<string name="import_export">Import/Export</string>
+	<string name="export_xml">Export to XML</string>
+	<string name="import_xml">Import from XML</string>
+	<string name="delete_confirmation">Are you sure you want delete this record ?</string>
+	<string name="yes">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="set_authorization_category">Initial Authorization</string>
+	<string name="set_auth_pin_code">Set PIN code for access to the program</string>
+	<string name="set_auth_enable">Enable</string>
+	<string name="set_auth_enable_sum">Enable intial athorization</string>
+	<string name="menu_settings">Settings</string>
+	<string name="init_authorization_title">Enter PIN code for access to the program</string>
+	<string name="init_authorization_failure">Sorry!</string>
+	<string name="notes">Notes</string>
+	<string name="about">About</string>
+	<string name="register">Registration</string>
+	<string name="set_online_group">Online synchronization</string>
+	<string name="set_online_username">Username</string>
+	<string name="set_online_password">Password</string>
+	<string name="set_online_enable">Enable synchronization</string>
+	<string name="menu_online_storage">Online</string>
+	<string name="menu_sync">Synchronization</string>
+	<string name="reg_username">Username</string>
+	<string name="reg_email">Email</string>
+	<string name="reg_password">Password</string>
+	<string name="reg_password_confirmation">Confirmation</string>
+	<string name="reg_user_successful">We congratulate! You are successfully registered in
+		our system. Now you can adjust synchronization via Settings menu.
+	</string>
+	<string name="reg_password_mismatch">Passwords aren\'t identical</string>
+	<string name="Settings_title">Settings</string>
+	<string name="InitialAuthorization_title">Authorization</string>
+	<string name="About_title">About</string>
+	<string name="RegisterWeb_title">Registration</string>
+	<string name="transfer_account_to">The account where are transferred</string>
+	<string name="transfer_value">Value to transfer</string>
+	<string name="Transfer_title">Transfer</string>
+	<string name="menu_transfer">Transfer</string>
+	<string name="transfer_value_is_0">The value should not be equal 0</string>
+	<string name="transfer_account_not_selected">Account not selected</string>
+	<string name="transfer_note_format">Transfer value %1$s from \'%2$s\' to \'%3$s\'
+	</string>
+	<string name="merge_notes">The account with which is merged. After operation
+		all records of this account will are transferred to the current
+		account and this account will be deleted.
+	</string>
+	<string name="Merge_title">Merge account</string>
+	<string name="menu_merge_account">Merge account</string>
+	<string name="filter_set">Set</string>
+	<string name="no_data">No data</string>
+	<string name="view_pie">View chart as pie</string>
+	<string name="view_bar">View chart as bar</string>
+	<string name="style_id">Style</string>
+	<string name="not_include_in_chart">Not to include in the chart</string>
+	<string name="widget_config_title">Please configure you widget:</string>
+	<string name="what_news_response">Please write the comment about this program on
+		Android Market, for us it is very important.
+	</string>
+	<string name="what_news_tilte">What news in %1$s</string>
+	<string name="what_news_text">Current bug fixing.
+		Adding application widgets.
+	</string>
+</resources>

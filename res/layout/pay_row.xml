@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+            <TextView android:text="TextView" android:id="@+id/payValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textSize="25sp"></TextView>
+            <LinearLayout android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:orientation="vertical">
+                <TextView android:text="TextViewTextViewTextView" android:layout_height="wrap_content" android:id="@+id/payDate" android:layout_width="match_parent" android:gravity="right"></TextView>
+                <TextView android:text="TextView" android:layout_height="wrap_content" android:id="@+id/payCategory" android:layout_width="match_parent" android:gravity="right"></TextView>
+            </LinearLayout>
+        </RelativeLayout>

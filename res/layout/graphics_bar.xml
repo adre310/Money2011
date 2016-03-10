@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:panel="http://schemas.android.com/apk/res/iae.home.money2011.v2"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_weight="1.0">
+		<LinearLayout android:id="@+id/grph_bar_draw"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:orientation="vertical">
+		</LinearLayout>
+	</LinearLayout>
+	<iae.home.money2011.view.Panel
+		android:id="@+id/grph_bar_filter" android:layout_width="match_parent"
+		android:layout_height="wrap_content" panel:handle="@+id/grph_bar_handle"
+		panel:content="@+id/grph_bar_content" panel:animationDuration="500"
+		panel:position="bottom">
+		<ImageView android:id="@+id/grph_bar_handle"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="@drawable/plashka_filter_1" android:src="@drawable/greben_2" />
+
+		<LinearLayout android:id="@+id/grph_bar_content"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<ScrollView android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:scrollbarStyle="outsideInset">
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="match_parent" android:orientation="vertical">
+					<RelativeLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentLeft="true" android:text="@string/currency" />
+						<TextView android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentRight="true" android:text="@string/account" />
+					</RelativeLayout>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal">
+						<Spinner android:id="@+id/grph_bar_spn_currency"
+							android:layout_weight="1.0" android:layout_width="200sp"
+							android:layout_height="wrap_content" />
+						<Spinner android:id="@+id/grph_bar_spn_accounts"
+							android:layout_weight="1.0" android:layout_width="match_parent"
+							android:layout_height="wrap_content" />
+					</LinearLayout>
+					<Spinner android:id="@+id/grph_bar_spn_deposit"
+						android:layout_width="match_parent" android:layout_height="wrap_content" />
+				</LinearLayout>
+
+			</ScrollView>
+		</LinearLayout>
+	</iae.home.money2011.view.Panel>
+
+</LinearLayout>

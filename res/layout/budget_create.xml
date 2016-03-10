@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<LinearLayout android:id="@+id/bud_cre_main" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+		<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/budget_name"></TextView>
+			<EditText android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/bud_cre_name"></EditText>
+			<TextView android:layout_width="match_parent"
+				android:layout_height="match_parent" android:text="@string/budget_initial_balance"></TextView>
+			<EditText android:layout_width="match_parent"
+				android:layout_height="match_parent" android:id="@+id/bud_cre_balance"
+				android:numeric="decimal"></EditText>
+			<TextView android:layout_width="match_parent"
+				android:layout_height="match_parent" android:text="@string/currency"></TextView>
+			<Spinner android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/bud_cre_currency"></Spinner>
+			<TextView android:layout_width="match_parent"
+				android:layout_height="match_parent" android:text="@string/budget_create_date"></TextView>
+			<Button android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/bud_cre_date"></Button>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/notes"></TextView>
+			<EditText android:layout_width="match_parent"
+				android:inputType="textMultiLine" android:id="@+id/bud_cre_description"
+				android:layout_height="match_parent" />
+			<RelativeLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<Button android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_alignParentRight="true" android:id="@+id/bud_cre_save"
+					android:text="@string/save"></Button>
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

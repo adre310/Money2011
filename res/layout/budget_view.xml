@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/bud_view_main" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		<TextView android:textSize="25sp" android:id="@+id/tvBudgetName"
+			android:layout_height="wrap_content" android:text="TextView"
+			android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="wrap_content" android:text="TextView"
+			android:layout_width="wrap_content" android:layout_alignParentRight="true"
+			android:textSize="25sp" android:id="@+id/tvBudgetBalance"></TextView>
+	</RelativeLayout>
+	<TextView android:text="TextView" android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/tvBudgetDescription"></TextView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:text="@string/pay_list"></TextView>
+	<ListView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:id="@+id/lvPayList"></ListView>
+</LinearLayout>

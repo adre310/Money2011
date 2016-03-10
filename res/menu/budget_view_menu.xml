@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mn_bud_view_addpay" android:icon="@android:drawable/ic_menu_add" android:title="@string/menu_add"></item>
+    <item android:title="@string/menu_reports" android:icon="@android:drawable/ic_menu_gallery">
+        <menu>
+            <item android:title="@string/report_all_category" android:id="@+id/mn_bud_view_report_all_category"></item>
+            <item android:title="@string/report_monthly" android:id="@+id/mn_bud_view_report_monthly"></item>
+        </menu>
+    </item><item android:id="@+id/mn_bud_view_editbud" android:title="@string/menu_budget_edit" android:icon="@android:drawable/ic_menu_edit"></item>
+    <item android:id="@+id/mn_bud_view_transfer" android:title="@string/menu_transfer"></item>
+    <item android:id="@+id/mn_bud_view_merge" android:title="@string/menu_merge_account"></item>
+    
+    
+    
+    
+</menu>

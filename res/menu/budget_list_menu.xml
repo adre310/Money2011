@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mn_bud_list_add" android:icon="@android:drawable/ic_menu_add" android:title="@string/menu_add"></item>
+    <item android:title="@string/menu_reports" android:icon="@android:drawable/ic_menu_gallery">
+        <menu>
+            <item android:title="@string/report_all_category" android:id="@+id/mn_bud_list_report_all_category"></item>
+            <item android:title="@string/report_monthly" android:id="@+id/mn_bud_list_report_monthly"></item>
+        </menu>
+    </item><item android:id="@+id/mn_bud_list_categories" android:title="@string/menu_categories"></item>
+    
+      
+        
+   <item android:icon="@android:drawable/ic_menu_more">
+        
+    <menu><item android:id="@+id/mn_bud_list_sync" android:title="@string/menu_sync" /><item android:id="@+id/mn_bud_list_register" android:title="@string/register" />
+    
+    <item android:title="@string/menu_settings" android:icon="@android:drawable/ic_menu_preferences" android:id="@+id/mn_bud_list_settings"></item><item android:id="@+id/mn_bud_list_about" android:title="@string/about"></item>
+    
+</menu>
+    </item>
+</menu>

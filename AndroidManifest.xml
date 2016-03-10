@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:installLocation="auto" package="iae.home.money2011.v2"
+	android:versionCode="70" android:versionName="2.5.5">
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name="com.google.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+		<activity android:name=".aAccountList" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".aAccountView" android:label="@string/BudgetView_title"></activity>
+		<activity android:name=".aPayEdit" android:label="@string/PayEdit_title"></activity>
+		<activity android:name=".aAccountCreate" android:label="@string/BudgetCreate_title"></activity>
+		<activity android:name=".aAccountEdit" android:label="@string/BudgetEdit_title"></activity>
+		<activity android:name=".aCategoryList" android:label="@string/CategoryList_title"></activity>
+		<activity android:name=".aSettings" android:label="@string/Settings_title"></activity>
+		<activity android:name=".aInitialAuthorization"
+			android:label="@string/InitialAuthorization_title"></activity>
+		<activity android:name=".aAbout" android:label="@string/About_title"></activity>
+		<activity android:name=".aRegisterWeb" android:label="@string/RegisterWeb_title"></activity>
+		<service android:name=".sync.SyncService"></service>
+		<activity android:name=".aTransfer" android:label="@string/Transfer_title"></activity>
+		<activity android:name=".aMerge" android:label="@string/Merge_title"></activity>
+		<activity android:name=".aGraphicsBar" android:label="@string/report_monthly"></activity>
+		<activity android:name=".aGraphicsPie" android:label="@string/report_all_category"></activity>
+		<activity android:name=".aCategoryEdit"></activity>
+		<receiver android:name=".widget.WidgetProvider">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:resource="@xml/appwidgetinfo"
+				android:name="android.appwidget.provider" />
+		</receiver>
+		<activity android:name=".widget.WidgetConfig">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+		</activity>
+		<service android:name=".widget.WidgetUpdateService"></service>
+
+	</application>
+</manifest>

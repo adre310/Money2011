@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout android:id="@+id/pay_edit_main" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_value"></TextView>
+    <EditText android:id="@+id/pay_edtValue" android:layout_width="fill_parent" android:text="" android:layout_height="wrap_content" android:numeric="decimal"/>
+    <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/pay_chkDebit"></Spinner>
+    <CheckBox android:id="@+id/pay_chkSystem" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/not_include_in_chart"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_date"></TextView>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/pay_edtDate" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category"></TextView>
+    <Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/pay_edtCategory"/>
+    <TextView android:text="@string/notes" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/pay_edtNotes" android:inputType="textMultiLine"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_width="wrap_content" android:id="@+id/pay_btnSave" android:text="@string/save"></Button>
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

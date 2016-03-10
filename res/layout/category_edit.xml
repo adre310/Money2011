@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/cat_edit_main" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/category"/>
+        <EditText android:id="@+id/cat_edit_name" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <requestFocus />
+        </EditText>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/style_id"/>
+        <Spinner android:id="@+id/cat_edit_spn_style" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/cat_edit_btnSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="@string/save"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</ScrollView>

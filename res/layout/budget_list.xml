@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/bud_list_main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/budget_list" />
+	<ListView android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/lvBudgetList"></ListView>
+</LinearLayout>

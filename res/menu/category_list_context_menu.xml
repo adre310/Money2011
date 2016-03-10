@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mn_cat_list_cntx_default" android:title="@string/menu_category_set_default"></item>
+    <item android:title="@string/menu_delete" android:id="@+id/mn_cat_list_cntx_delete"></item>
+</menu>
